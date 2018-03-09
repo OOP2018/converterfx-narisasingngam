@@ -13,6 +13,7 @@ public class Main extends Application {
 		try {
 			Parent root = (Parent) FXMLLoader.load(getClass().getResource("ConverterUI.fxml"));
 			Scene scene = new Scene(root);
+			stage.setTitle("Converter");
 			stage.setScene(scene);
 			stage.sizeToScene();
 			stage.show();
